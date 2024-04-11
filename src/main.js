@@ -9,3 +9,11 @@ const app = createApp(App);
 app.use(revel);
 app.use(router);
 app.mount('#app');
+
+let { redirect } = sessionStorage;
+delete sessionStorage.redirect;
+
+if (redirect && redirect !== location.pathname) {
+    redirect = redirect.replace(import.meta.env.BASE_URL, '/');
+    router.replace(redirect);
+}
