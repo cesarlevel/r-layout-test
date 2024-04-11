@@ -1,0 +1,22 @@
+{
+  "name": "r-update-layout",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/r-layout-test/ ",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@rebilly/revel": "^6.22.6",
+    "moment": "^2.30.1",
+    "vite-plugin-mkcert": "^1.17.4",
+    "vue": "^3.4.15",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.1.0"
+  }
+}
