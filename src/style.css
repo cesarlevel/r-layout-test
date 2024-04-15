@@ -274,11 +274,11 @@ main {
 
   &.is-secondary-v2 {
     background-color: var(--r-surface-secondary);
-    border-color: var(--r-border-muted);
+    border: none;
 
     .tile-content {
       & + & {
-        border-top: 1px solid var(--r-border-muted);
+        border-top: 1px solid var(--r-border);
       }
     }
   }
