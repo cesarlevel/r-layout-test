@@ -18,7 +18,7 @@ const state = reactive({
     </div>
   </section>
   <Navigation />
-  <main>
+  <main class="r-position-relative">
     <MainTop />
     <section class="r-position-relative r-pb-12 r-pt-6">
       <RouterView />

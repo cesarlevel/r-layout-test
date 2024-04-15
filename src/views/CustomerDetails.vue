@@ -54,11 +54,11 @@ const count = ref(0)
         <RButton class="r-ml-3" type="unstyled" size="small">Manage</RButton>
       </div>
     </div>
-    <div class="r-grid">
+    <div class="r-grid r-flex-row-reverse">
       <div class="r-grid-item details">
         <div class="r-grid">
           <div class="r-grid-item r-grid-item-full">
-            <div class="tile is-secondary">
+            <div class="tile is-secondary-v2">
               <div class="tile-content">
                 <div class="tile-title r-stack-5 r-d-flex r-justify-content-between r-align-items-center">
                   <h2>Customer details</h2>
@@ -88,7 +88,7 @@ const count = ref(0)
             </div>
           </div>
           <div class="r-grid-item r-grid-item-full">
-            <div class="tile is-secondary">
+            <div class="tile is-secondary-v2">
               <div class="tile-content">
                 <div class="tile-title r-stack-5 r-d-flex r-justify-content-between r-align-items-center">
                   <h2>Custom fields</h2>
@@ -98,7 +98,7 @@ const count = ref(0)
             </div>
           </div>
           <div class="r-grid-item r-grid-item-full">
-            <div class="tile is-secondary">
+            <div class="tile is-secondary-v2">
               <div class="tile-content">
                 <div class="tile-title r-stack-5 r-d-flex r-justify-content-between r-align-items-center">
                   <h2>Subscriptions</h2>
@@ -141,7 +141,7 @@ const count = ref(0)
                     <RButton size="small" type="plain" icon="actions" />
                   </div>
                 </div>
-                <div class="divider r-mt-3 r-mb-3"></div>
+                <div class="divider is-muted r-mt-3 r-mb-3"></div>
                 <div class="r-grid-fitted">
                   <div class="r-grid-item">
                     <table class="r-table r-table-ultra-compact r-table-definition">
@@ -221,7 +221,7 @@ const count = ref(0)
             </div>
           </div>
           <div class="r-grid-item r-grid-item-full">
-            <div class="tile is-secondary">
+            <div class="tile is-secondary-v2">
               <div class="tile-content">
                 <div class="tile-title r-stack-5 r-d-flex r-justify-content-between r-align-items-center">
                   <h2>One time orders</h2>
@@ -270,7 +270,7 @@ const count = ref(0)
 
 
           <div class="r-grid-item r-grid-item-full">
-            <div class="tile is-secondary">
+            <div class="tile is-secondary-v2">
               <div class="tile-content">
                 <div class="tile-title r-stack-5 r-d-flex r-justify-content-between r-align-items-center">
                   <h2>Tax ID numbers</h2>
@@ -283,7 +283,7 @@ const count = ref(0)
           </div>
 
           <div class="r-grid-item r-grid-item-full">
-            <div class="tile is-secondary">
+            <div class="tile is-secondary-v2">
               <div class="tile-content">
                 <div class="tile-title r-stack-5 r-d-flex r-justify-content-between r-align-items-center">
                   <h2>Lead source</h2>
@@ -294,7 +294,7 @@ const count = ref(0)
           </div>
           
           <div class="r-grid-item r-grid-item-full">
-            <div class="tile is-secondary">
+            <div class="tile is-secondary-v2">
               <div class="tile-content">
                 <div class="tile-title r-stack-5 r-d-flex r-justify-content-between r-align-items-center">
                   <h2>KYC</h2>
@@ -306,7 +306,7 @@ const count = ref(0)
           </div>
 
           <div class="r-grid-item r-grid-item-full">
-            <div class="tile is-secondary">
+            <div class="tile is-secondary-v2">
               <div class="tile-content">
                 <div class="tile-title r-stack-5 r-d-flex r-justify-content-between r-align-items-center">
                   <h2>AML Checks</h2>
@@ -318,7 +318,7 @@ const count = ref(0)
           </div>
 
           <div class="r-grid-item r-grid-item-full">
-            <div class="tile is-secondary">
+            <div class="tile is-secondary-v2">
               <div class="tile-content">
                 <div class="tile-title r-stack-5 r-d-flex r-justify-content-between r-align-items-center">
                   <h2>Enhanced due diligence (EDD)</h2>
@@ -329,7 +329,7 @@ const count = ref(0)
           </div>
 
           <div class="r-grid-item r-grid-item-full">
-            <div class="tile is-secondary">
+            <div class="tile is-secondary-v2">
               <div class="tile-content">
                 <div class="tile-title r-stack-5 r-d-flex r-justify-content-between r-align-items-center">
                   <h2>External identifiers</h2>

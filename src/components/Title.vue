@@ -54,3 +54,9 @@ const props = defineProps({
       </div>
     </div>
 </template>
+
+<style scoped>
+  .r-grid-fitted {
+    min-height: 36px;
+  }
+</style>

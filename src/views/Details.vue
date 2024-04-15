@@ -39,8 +39,8 @@ const count = ref(0)
         <RButton type="unstyled" class="r-button-fitted" size="small">Manage</RButton>
       </div>
     </div>
-    <div class="r-grid">
-      <div class="r-grid-item details">
+    <div class="r-grid r-flex-row-reverse">
+      <div class="r-grid-item details r-ml-6">
         <div class="r-grid">
           <div class="r-grid-item r-grid-item-full">
             <div class="tile is-secondary">
@@ -275,7 +275,7 @@ const count = ref(0)
                             <td class="r-text-muted" width="50%"><span>Redirect URL</span></td>
                             <td class="r-wb-break-word">
                               <div>
-                                https://sandbox-portal.secure-payments.app/payment/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJqd3RfMDFIVEpDWkcyRUs3OFhGNEpaWFNDRjNOWkIiLCJleHAiOjE3NDM2OTgwNjIsImlhdCI6MTcxMjE2MjA2Mi40MTQ5NSwiYWNsIjpbeyJzY29wZSI6eyJvcmdhbml6YXRpb25JZCI6WyI3NDU3NTQ4Zi0yMGEwLTRjMWQtYTU2Yi00NmJkZTI0ZjM4MzIiXSwicGF5bWVudE1ldGhvZHMiOlsiZWNoZWNrIl0sImN1c3RvbUZpZWxkTmFtZSI6WyJTSU5MYXN0NCJdfSwicGVybWlzc2lvbnMiOlsyODQsMjg2LDQxNCw0MTUsNDM0LDQxMSw0MTIsNDI0LDQyNSw0MjYsNDI3LDQyOCw0MjksNDA5LDQxMCw0MDEsNDAyLDQzMyw0ODgsNDg3LDY4Nyw2ODEsNjg3LDY4MSw2ODhdfV0sImNsYWltcyI6eyJ3ZWJzaXRlSWQiOiJteS1hd2Vzb21lLXdlYnNpdGUiLCJ0cmFuc2FjdGlvbklkIjoiMjA3IiwicGF5bWVudE1ldGhvZHMiOlsiZWNoZWNrIl19LCJtZXJjaGFudCI6Ijc0NTc1NDhmLTIwYTAtNGMxZC1hNTZiLTQ2YmRlMjRmMzgzMiIsImN1c3RvbWVyIjp7ImlkIjoiNzZjYzdmNGItMWJiZC00NjljLTg4OGMtMTE5YThjOTE2ZWE4IiwibmFtZSI6IkZpcnN0IExhc3QiLCJjcmVhdGVkVGltZSI6IjIwMTgtMDQtMDZUMjA6Mjk6NTIrMDA6MDAifX0.cS-iBzW4N4CJTleZt6FI8HN3Hio19T7C17Zf9q2GDApN6TAKlJ53N1lxY8PGz68rMG-yO-6mfEeD8swLF5Tghfws36WppoN0BvbhyQasdCbsQEzfvBFCl53EeWuRwHlM4CGNiK77WBIo-Wze2hu5Qg3bIImAVpK42gKrRCT8xLlBhn4hna04HVYEo1LJ-2tYM75HHMYaQJXeEi7yMcJHrBnbuj2MKeQhSS6UCTY6GkxxjDm8d8OeDgaeeIxIBFZPNhoA1DXSPyE2oil8U3_P04FGNDvPHUB2DUHWeHVLMZ8uIW7V7eZzuxRFQY1RfJr67Akw89fMrie74aW7ZKYBMw&amp;errorUrl=https%3A%2F%2Fsandbox.secure-payments.app%2FparamountEft%2Ferror%2F%3FtransactionId%3D207%26organizationId%3D7457548f-20a0-4c1d-a56b-46bde24f3832&amp;cancelUrl=https%3A%2F%2Fsandbox.secure-payments.app%2Fpayments%2Fcancel%2F207%2Fb951ec4ccddb448d80cbd284aed95d99%2F
+                                https://sandbox-portal.secure-payments.app/payment/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJqd3RfMDFIVEpDWkcyRUs3OFhGNEpaWFNDRjNOWkIiLCJleHAiOjE3NDM2OTgwNjIsImlhdCI6MTcxMjE2MjA2Mi40MTQ5NSwiYWNsIjpbeyJzY29wZSI6eyJvcmdhbml6YXRpb25JZCI6WyI3NDU3NTQ4Zi0yMGEwLTRjMWQtYTU2Yi00NmJkZTI0ZjM4MzIiXSwicGF5bWVudE1ldGhvZHMiOlsiZWNoZWNrIl0sImN1c3RvbUZpZWxkTmFtZSI6WyJTSU5MYXN0NCJdfSwicGVybWlzc2lvbnMiOlsyODQsMjg2LDQxNCw0MTUsNDM0LDQxMSw0MTIsNDI0LDQyNSw0MjYsNDI3LDQyOCw0MjksNDA5LDQxMCw0MDEsNDAyLDQzMyw0ODgsNDg3LDY4Nyw2ODEsNjg3LDY4MSw2ODhdfV0sImNsYWltcyI6eyJ3ZWJza
                               </div>
                             </td>
                           </tr>

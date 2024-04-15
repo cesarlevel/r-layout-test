@@ -1,11 +1,12 @@
 <script setup>
 import { useNavigationCollapse } from '@/composables/use-navigation-collapse';
 
-const { isCollapse } = useNavigationCollapse();
+const { collapseNav, isCollapse } = useNavigationCollapse();
 </script>
 
 <template>
-  <nav :class="{'is-collapse': isCollapse}">
+  <nav :class="{'is-collapse': isCollapse}" class="r-position-relative">
+    <RButton :icon="isCollapse ? 'caret-right' : 'caret-left'" class="r-shadow-0 r-button-fitted collapse-navigation-button" size="small" @click="collapseNav" />
     <section class="nav-updates">
       <div class="r-d-flex r-position-relative r-align-items-center nav-button">
         <RIcon icon="rebilly-icon"/>
